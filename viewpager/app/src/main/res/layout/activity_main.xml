@@ -13,10 +13,14 @@
         android:layout_height="wrap_content"
         android:background="@color/design_default_color_on_primary"
         app:layout_constraintTop_toTopOf="parent"
+        app:tabIndicatorColor="@android:color/black"
         app:tabIndicatorHeight="3dp"
         app:tabMode="fixed"
         app:tabPaddingBottom="8dp"
-        app:tabPaddingTop="15dp" />
+        app:tabPaddingTop="15dp"
+        app:tabSelectedTextColor="@android:color/black"
+        app:tabTextAppearance="@style/tab_text"
+        app:tabTextColor="@android:color/darker_gray" />
 
     <View
         android:layout_width="match_parent"
